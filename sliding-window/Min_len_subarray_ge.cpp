@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public :
-    int MinSumSubarray(vector<int> &nums, int target){
+    int MinlenSubarray(vector<int> &nums, int target){
         int n = nums.size();
         int low = 0;
         int sum = 0;
@@ -32,7 +32,7 @@ int main(){
 
     vector<int> arr = {2,3,1,2,4,3};
     int target = 7;
-    int result = sol.MinSumSubarray(arr,target);
+    int result = sol.MinlenSubarray(arr,target);
     cout<< "the minimum length of subarray whos sum greater or eqal to target is ";
     cout << result << endl;
 }
