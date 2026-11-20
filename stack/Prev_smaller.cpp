@@ -34,7 +34,7 @@ public:
 int main() {
     Solution sol;
 
-    vector<int> arr = {4, 5, 2, 10, 8};
+    vector<int> arr = {4, 5, 3, 10, 8};
 
     cout << "Input: ";
     for (int x : arr) cout << x << " ";
