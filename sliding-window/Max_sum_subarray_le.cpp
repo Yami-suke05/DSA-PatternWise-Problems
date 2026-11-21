@@ -29,7 +29,7 @@ public :
 
 int main(){
     Solution sol;
-    vector<int> arr = {1,2,3,4,5};
+    vector<int> arr = {1,2,3,4,5,6,7};
     int target = 11;
 
     int result = sol.MaxSumSubarray(arr,target);
